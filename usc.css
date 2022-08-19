@@ -1,0 +1,54 @@
+.topslide {
+    /* transform: translateX(-1vw); */
+    transform: Scale(0.299);
+    margin-top: 0.2vh;
+    box-shadow: none;
+    display: inline;
+}
+
+.noback {
+    backdrop-filter: blur(0px);
+    flex-direction: row;
+    justify-content: left;
+    background: none;
+    /* align-items: center; */
+    /* margin-left: -40vh; */
+
+}
+
+.shrinkh {
+    height: 5.8vw;
+    /* padding: 0%; */
+    justify-content: flex-start;
+
+}
+
+.namesize {
+    /* margin-left: 0.2vh; */
+    margin: 0%;
+    font-size: 10vmin;
+}
+
+.text {
+    position: absolute;
+    color: rgb(29, 29, 29);
+    left: -2.8vw;
+}
+
+.topcolor {
+
+    background: linear-gradient(to left, #ffecd2, #fdb8a1);
+}
+
+.nodisplay {
+    display: none;
+}
+
+.bhover {
+
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 4.8px rgb(62, 62, 62);
+    color: rgb(225, 149, 67);
+
+}
