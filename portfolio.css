@@ -5,173 +5,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
-
-* {
+*{
     margin: 0%;
 }
-
-
-.topdiv {
-    display: flex;
-
-    background-image: url("https://images.unsplash.com/photo-1658495679244-2da9259647ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
-    /* border: 2px dashed rgb(240s, 159, 10); */
-    height: 68vh;
-    align-items: center;
+.navbar{
+    display:flex;
     justify-content: center;
-    transition: all 1.8s ease;
-
-}
-
-
-
-
-.top {
-    display: flex;
-    flex-direction: column;
-    backdrop-filter: blur(12px);
     align-items: center;
-    justify-content: center;
-    /* border: 2px dotted rgb(206, 81, 81); */
-    border-radius: 38px;
-    width: 94.4vw;
-    height: 58vh;
-    transition: all 1.8s ease;
-
-
 
 }
-
-.profilepic {
-    box-shadow: 4px 0px 12px black;
-    border: 2.8px dashed rgb(255, 255, 255);
-    height: 24vh;
-    width: 24vh;
-    border-radius: 50%;
-
-    margin-top: 6vh;
-    transition: all 1.8s ease;
-
+.navbtn{
+    list-style: none;
 
 }
-
-.name {
-    font-family: Francois One;
-    text-align: center;
-    margin-top: 6.8vh;
-
-    font-size: 4.8vmin;
-    opacity: 1;
-    transition: all 1.8s ease;
-
-    color: white;
-    /* background-color: rgb(215, 215, 215); */
-    border-radius: 12.8px;
-    padding: 0.1em;
-    opacity: 100;
-}
-
-.navbar {
-    margin-top: 0.5vh;
-}
-
-.navelement {
-    background-image: url("https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
-    background-position: center;
-    /* background: linear-gradient(to left, #c59c64 , #c26b4e); */
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    height: 8.6vh;
-    align-items: center;
-    box-shadow: 0px 2px 18px rgb(41, 40, 40);
-
-    /* border: 2px solid black; */
-}
-
-.navbtn {
-    margin-left: 1vw;
-    list-style-type: none;
-}
-
-.navbtn>div a {
+.btnlink{
     text-decoration: none;
-    background: none;
-
-    font-family: Crete Round;
-    color: rgb(8, 8, 8);
+    color: rgb(20, 19, 19);
+    font-family: Fugaz One;
+    transition: all 0.54s ease;
 }
-
-.navbtn>div {
-
-    padding: 1vh;
-    border-radius: 12px;
-    /* border:2.8px solid white; */
-    opacity: 10;
-    backdrop-filter: blur(198px);
-    transition: all 0.5s ease;
+.btn{
+   margin-left: 2.8vh;
+   transform: scale(1.18);
+   border: none;
+   background: none;
 }
+   
 
-.navbtn>div:hover {
-    background-color: white;
-    cursor: pointer;
-    box-shadow: 0px 2px 4.8px rgb(62, 62, 62);
-}
-
-.navbtn>div:hover a {
-
-    color: rgb(225, 149, 67);
-}
-
-.mss {
-    margin-top: 4vh;
-    background-image: url("https://images.unsplash.com/photo-1658669742598-2f70354c3326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
-    background-position: center;
-    height: 88vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5.8vh;
-
-    /* border:4px solid black; */
-}
-
-.mssdiv {
+.btncont{
     display: flex;
     align-items: center;
-    text-align: left;
-    padding: 4vh;
-    backdrop-filter: blur(10px);
-    /* margin:5vh; */
-    height: 48vh;
-    width: 80vw;
-    border: 4px solid rgb(172, 172, 172);
-    border-radius: 18px;
-    margin-top: 4vh;
-    font-size: 4.8vmin;
-
-    transition: all 1s ease;
-    font-family: Poppins;
+    justify-content: center;
+    
+}
+.head{
+    box-shadow: 2px 2px 8px rgb(56, 54, 54);
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-left: 1.2vw;
+    font-family: Merienda;
+}
+.profilepic{
+    border: 2px solid black;
+    width: 8vh;
+    height: 8vh;
+}
+.navbtn:hover{
+    transform: scale(1.34);
+    transition: all 0.54s ease;
 }
 
-.mssdiv:hover {
-    box-shadow: 4.8px 4.8px 18px rgb(246, 242, 233);
+.navbtn:hover .btnlink{
+    color: rgb(211, 55, 50);
+   
 }
 
-.mss:hover .mssh {
-    background-color: rgb(79, 79, 79);
-    border-bottom: 4px dashed rgb(246, 246, 246);
-
-}
-
-.mssh {
-    font-size: 4.8vmin;
-    font-family: Titillium Web;
-    color: white;
-    border-bottom: 4px dashed rgb(47, 45, 45);
-    padding-left: 1vw;
-    padding-right: 1vw;
-    transition: all 0.5s ease;
-}
